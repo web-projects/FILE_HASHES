@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{33DF937B-52D0-42EA-A581-A73DD37C3830}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CheckSum</RootNamespace>
-    <AssemblyName>CheckSum</AssemblyName>
+    <RootNamespace>CheckSumGenerator</RootNamespace>
+    <AssemblyName>CheckSumGenerator</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

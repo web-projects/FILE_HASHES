@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33130.400
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileHash", "FileHash\FileHash.csproj", "{33DF937B-52D0-42EA-A581-A73DD37C3830}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckSumGenerator", "FileHash\CheckSumGenerator.csproj", "{33DF937B-52D0-42EA-A581-A73DD37C3830}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hashes", "Hashes", "{AC37888F-42F8-476F-BC50-1AE4BF5531BA}"
 	ProjectSection(SolutionItems) = preProject
