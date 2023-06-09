@@ -1,0 +1,20 @@
+============================================================
+Deploy Packages for Updater
+============================================================
+
+1. Review and execute dbo.PackageType.sql script
+   * note: PackageTypeID
+
+2. Review and execute dbo.Package.sql script
+   * note1: PackageID is auto generated
+   * note2: Obtain HashValue with the CheckSumGenerator application
+   * note3: Set @CreatedBy column appropriately
+   
+3. Review and execute dbo.PackageDeploy.sql script
+   * note1: PackageID is auto generated in step 2
+   * note2: PackageDeployID is the next available index from the current
+            list of packages
+   * note3: Set @AppId, @CreatedBy, @UpdatedBy, @PackageId, @SerialNumber,
+            and @DeviceModel columns appropriately
+
+4. Start AppManager and review client log for proper results.
