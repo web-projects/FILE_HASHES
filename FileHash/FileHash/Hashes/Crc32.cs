@@ -10,10 +10,9 @@ namespace CheckSum.Hashes
         {
             uint poly = 0xedb88320;
             table = new uint[256];
-            uint temp = 0;
             for (uint i = 0; i < table.Length; ++i)
             {
-                temp = i;
+                uint temp = i;
                 for (int j = 8; j > 0; --j)
                 {
                     if ((temp & 1) == 1)
